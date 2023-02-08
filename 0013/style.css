@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 20rem;
+  max-width: 40rem;
+}
+
+.content h1{
+  padding: 4rem;
+  font-size: 5rem;
+  text-align: center;
+  background-size: cover;
+  background: url("paisagem2.jpg");
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
